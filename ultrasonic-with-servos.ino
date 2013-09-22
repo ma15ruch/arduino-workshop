@@ -1,4 +1,3 @@
-
 #include <Servo.h>
 
 Servo bob;
@@ -49,9 +48,9 @@ void loop()
   artyAngle = map(sensorRead2, 0, 566, 0, 180);
   arty.write(artyAngle);
   
-  delay(10);
-  
   Serial.println(echolocation());
+    delay(10);
+
 }
 
 float echolocation()
