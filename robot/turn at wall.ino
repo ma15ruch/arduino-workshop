@@ -43,7 +43,7 @@ void loop()
     delay(1000);//save the arduino*/
     
     distance = echolocation();
-Serial.println(echolocation());
+Serial.println(distance);
   delay(10);
   
   if(distance < 60)
