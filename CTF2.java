@@ -1,4 +1,4 @@
-//with player2 and follower2
+//with player2 and flag2
 package CTF;
 
 import zen.core.Zen;
